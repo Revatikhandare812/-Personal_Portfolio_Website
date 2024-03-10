@@ -1,0 +1,241 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="icon" href="image/namelogo.jpg">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/cbe101d073.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- --- Header --- -->
+        <div id="header">
+        <img id="photo" src="image/RevatiKhandare_CSE.png" alt="Image">
+        <div class="container">
+            <nav>
+                <img src="image/namelogo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Work</a></li>
+                    <li><a href="#certificate">Certification</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+                </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Java Developer | Web Developer | Learner </p><br>
+                <h1>Hi, I'm <span>Revati </span> <br>Khandare From India</h1>
+            </div><br>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/revati-khandare-9ab169222/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="revatikhandare812@gmail.com" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/RevaKhandare08" class="git"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.hackerrank.com/revatikhandare81? hrr = 1" class="hackerrank"><i class="fa-brands fa-hackerrank"></i></a>
+            </div>
+            <a href="image/RevatiKhandare_Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+    <!-- --- about --- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/RevatiKhandare_CSE.png" id="myimg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>I am a highly organized and hard-working individual with a great work ethic seeking a challenging position to gain practical experience and expand my learning and skills.</p>                   
+                     <div class="tab-titles">
+                        <p class="tab-links active"onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links "onclick="opentab('education')">Education</p>
+                        <p class="tab-links "onclick="opentab('co-curricular')">Co Curricular</p>
+                  
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java (Advance)</span></li>
+                            <li><span>JavaScipt</span></li>
+                            <li><span>MySQL</span><br></li>
+                            <li><span>HTMLL</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>Git</span><br></li>
+                            <li><span>GitHub</span><br></li>
+                            <li><span>Figma</span><br></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E. in Computer Science and Engineering</span><br><br><p>Shri Sant Gajanan Maharaj College of Engineerig, Shegaon.</p><br>
+                                <p>Aug 2021 - May 2024</p><br>
+                                <strong>CGPA - 8.7</strong></li><br>
+                            <li><span>Diploma in Computer Engineering</span><br><br> <p>Government Polytechnic Khamgaon</p><br>
+                                <p>July 2018 - April 2021</p><br>
+                                <strong>Grade - 92.74%</strong></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="co-curricular">
+                        <ul>
+                            <li><span>CSESA Coordinator</span><br><br>Worked as a Coordinator of the CSESA committee for the pursuit-technical event at SSGMCE.</li><br>
+                            <li><span>MOOC Coordinator of CSESA</span><br><br>MOOC Coordinator of Computer Engi- neering Student Association at Government Polytechnic, Khamgaon.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- <div class="tab-contents" id="achievement">
+                        <ul>
+                            <li><a href="https://www.hackerrank.com/revatikhandare81? hrr = 1"></a><br>Earned 5 Star for Java on Hakerrank.</li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+    <!-- ----My Work---- -->
+    <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/portfolio.png">
+                <div class="layer">
+                    <h3>Portfolio Business Website</h3>
+                    <P>I have developed a complete portfolio website. It shows the online representa- tion of my education details, the work I have done, my skills, and my experiences.</P><br>
+                    <p>Tech Stack: HTML, CSS, and JavaScript.</p>
+                    <a href="https://revatiesportfolio.000webhostapp.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/youtube.png">
+                <div class="layer">
+                    <h3>YouTube Home Page Design</h3>
+                    <p> I have created the design of the YouTube home page by using Figma.</p><br>
+                    <p>Tool: Figma.</p>
+                    <a href="https://www.figma.com/proto/RakPZcEtsFOKbCO5yryNFc/YouTube?node-id=1-2&mode=design&t=qUqTaWNudYEEQ9JV-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img src="image/home.png">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>The app conects you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- ----Certification---- -->
+ <div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/IEEE_Internship.jpg">
+                <div class="layer">
+                    <h3> Full Stack Developer Intern</h3>
+                    <p>Alhansat Solutions  Dec 2022 – Feb 2023</p>
+                    <a href="https://drive.google.com/file/d/1SMO0nXSQZupKq80O90b6lyZo5hakeMob/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/Java_NPTEL.jpg">
+                <div class="layer">
+                    <h3>Programming in Java</h3>
+                    <p> NPTEL Certification</p>
+                    <a href="https://drive.google.com/file/d/12bWSBbZMT8-RI1EHfgo9lL5_5mp56NwQ/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/ProblemSolvingCoursera.jpg">
+                <div class="layer">
+                    <h3>Problem Solving Using Computational Thinking</h3>
+                    <p>Coursera</p>
+                    <a href="https://drive.google.com/file/d/1gl_hu9aNAXunlT2qA9hlEduU3TS5Jy7R/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+ <!-- -----contact----- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>revatikhandare812@gmail.com</p>
+                
+                <!-- <p class="fa-solid fa-paper-plane"><a href="mailto:revatikhandare812@gmail.com">    revatikhandare812@gmail.com</a></p>
+                
+                <p class="fa-solid fa-square-phone"><a href="tel:8551007482">   8551007482</a></p> -->
+
+                <p><i class="fa-solid fa-square-phone"></i>8551007482</p>
+              
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="copyright">
+        <p>Copyright © Revati_Khandare <i class="fa-solid fa-heart"></i></p>
+    </div>
+ 
+
+ <!-- _______Java Script________ -->
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw5UKt6ELwK0xqxejUQXmFiy6DItu57Z5pMiAZfh2j9AFZOOZFgRSQSqTWivP-MnIq5cQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+    </html>
